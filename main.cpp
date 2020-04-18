@@ -53,7 +53,7 @@ int main(){
 
 
     cout << "_array_1: ";
-    for(int i = 0; i < sizeof(_array_1)/sizeof(_array_1[0]); i++) {
+    for(int i = 0; i < sizeof(_array_1)/sizeof(_array_1[0]); i++) { //esto es 30000 iq
         cout << _array_1[i] << " ";
     }
     cout << endl << "_array_1 ordenado: ";
@@ -86,5 +86,6 @@ int main(){
     cout << endl << "_array_4 ordenado: ";
     _bubblesort_(_array_4,_b_char_,6);
     for(int i = 0; i < sizeof(_array_4)/sizeof(_array_4[0]); i++) {
+        cout << _array_4[i] << " ";
     }
 }
